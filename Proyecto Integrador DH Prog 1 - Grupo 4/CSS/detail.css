@@ -1,0 +1,522 @@
+body {
+    background-color: #E4E0FF;
+    background-color: #e5f1f14d;
+    margin: 0px;
+    width: 100%;
+    font-family: 'Manrope', sans-serif;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+.redes:hover{
+    background-color: #5c5257;
+}
+.redes{
+    background-color: #3b3136;
+    width: 50%;
+    height: 40px;
+    border-radius: 5px;
+    margin: auto;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+
+}
+.nombres{
+    margin-top: 30px;
+}
+.nomylogo{
+    display: grid;
+    grid-template-columns: 4fr 1fr;
+}
+.logored{
+    margin: auto;
+}
+
+#global{
+    position: fixed;
+    top: 0px;
+    z-index: 10;
+    width: 100%;
+    background-color: #E4E0FF;
+    background-color: #e5f1f14d;
+    backdrop-filter: blur(5px);
+    background-color: rgba(255, 255, 255, 0.884);
+}
+.nada{
+    background-image: linear-gradient(to bottom, rgb(255, 0, 221), #ffffff);
+    height: 61.94px;
+}
+.container{
+    margin-top: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-around;
+    margin-bottom: 5px;
+}
+
+
+                                                       /*detailArtist*/
+
+
+#containerdelcontainer {
+    width: 100%;
+    margin: auto;
+    border-radius: 5px;
+}
+
+
+.containerArtista {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: space-around;
+    margin-bottom: 5px;
+    background-image: url(../Imagenes/NoraEnPure.jpg);
+    background-size: cover;
+    background-color: transparent;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+#detalleArtista {
+    margin-top: 200px;
+    color: aqua;
+    padding-left: 20px;
+}
+
+#nombreDelArtista {
+    color: white;
+}
+
+.seguidores {
+   margin-top: 5px;
+   padding-left: 30px;
+   color: gray;
+   font-weight: lighter;
+}
+
+.topSongs {
+    margin-top: 30px;
+   padding-left: 30px;
+   color: black;
+   font-weight: bold;
+}
+
+
+.gridcontainer {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    margin-top: 20px;
+}
+
+                                                        /*detailAlbum*/
+
+
+.containerArtist {
+
+    margin: auto;
+    margin-top: 50px;
+    padding: auto;
+    box-sizing: border-box;
+    margin-left: 10px;
+    margin-right: 10px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    text-align: center;
+    
+}
+
+#imageArtist {
+    color: white;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    border-radius: 4px;
+    margin: 10px;
+    margin-left: 6px;
+    box-sizing: border-box;
+}
+#imageArtistt {
+    color: white;
+    width: 100%;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    border-radius: 4px;
+    margin: 10px;
+    margin-left: 6px;
+    box-sizing: border-box;
+}
+
+#textArtist {
+    color: white;
+    margin: 10px;
+    padding: 5px;
+    box-sizing: border-box;
+    border-radius: 4px;
+    text-align: left;
+    font-size: 16px;
+}
+.locura{
+    margin-left: -15px;
+}
+
+#textArtist a{
+    color: #ff004cc4;
+    font-weight: 500;
+}
+
+
+.containerPlayShuffle {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-left: 10px;
+    margin-right: 10px;
+    display: grid;
+    width: 90%;
+    margin: auto;
+    grid-template-columns: 1fr;
+    text-align: center;
+    color: #ff004cc4;
+    font-weight: bold;
+}
+@media(min-width: 1000px) {
+    .containerPlayShuffle {
+        width: 60%;
+    }
+}
+
+.playButton {
+    border-radius: 4px;
+    background-color:  #f0f0f0b0;
+    margin: auto;
+    width: 100%;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    font-family: 'Heebo', sans-serif;
+}
+.playButton:hover{
+    border-radius: 4px;
+    background-color:  #d6d6d6b0;
+    margin: auto;
+    width: 100%;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    font-family: 'Heebo', sans-serif;
+}
+
+.artistName {
+    color: #ff004cc4;
+    
+}
+.artistName2 {
+    color: #ff004cc4;
+    margin-left: -15px;
+    
+}
+
+.albumName {
+    color: black;
+}
+
+.genreName {
+    color: gray;
+}
+.releaseDate {
+    color: #1d1d1f;
+}
+
+
+                                                     /*Apple topnav*/
+
+#myTopnav {
+   margin-top: 0px;
+   margin-left: 10px;
+   margin-right: 10PX;
+   z-index: 10;
+}
+
+.divbusqueda2 {
+    background-color: none;
+    margin-top: 10px;
+    height: 23px;
+    width: 100%;
+    display: grid;
+    padding-bottom: 5px;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr;
+    margin-bottom: 10px;
+}
+
+.busqueda2a {
+    display: grid;
+    margin-left: auto;
+    margin-right: auto;
+    width: 70%;
+    grid-template-columns: 1fr 9fr;
+    border-radius: 200px;
+    border: solid 1px gray;
+    background-color: white;
+    
+}
+
+
+.burger {
+    cursor: pointer;
+    text-align: left;
+    position: absolute;
+    left: 11%;
+    top: 20px;
+}
+
+.burger div {
+    width: 25px;
+    height: 1px;
+    background-color: black;
+    margin: 5px;
+    text-align: left;
+}
+
+.topnav a{display: none;}
+  .topnav a.burger {
+    float: right;
+    display: block;
+  }
+  .topnav.responsive {position: relative;}
+    .topnav.responsive .burger {
+      position: absolute;
+      right: 0;
+      top: 0;
+    }
+    .topnav.responsive a {
+      float: none;
+      display: block;
+      text-align: left;
+    }
+
+    .topnav.responsive .busqueda2a {
+        margin-top: 11px;
+        padding-top: 3px;
+        padding-bottom: 3px;
+    }
+
+    #containerTopNav {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        margin-top: 5px;
+        margin-bottom: 10px;
+    }
+
+    .sound {
+        position: absolute;
+        top: 17px;
+        left: 25%;
+        margin: auto;
+    }
+
+    .waves {
+        position: absolute;
+        top: 17px;
+        right: 25%;
+        margin: auto;
+    }
+
+    #logoSoundWaves  {
+        background-color: none;
+    }
+
+    .line3 {
+        background-color: #ff004cc4;
+        height: 1px;
+        margin: 1px;
+        margin-left: 5%;
+        margin-right: 5%;
+    }
+
+    .topnav.responsive .line {
+        height: 1px;
+        background-color: #ecc8d3e1;
+    }
+
+    .topnav.responsive .line3 {
+        display: none;
+    }
+
+                                                /*Hasta acá Apple topnav*/
+
+
+
+#ranking_tracks{
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 5px;
+    width: 90%;
+    background-color: #f0f0f0b0;
+    height: 175px;
+    border-radius: 5px;
+    grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+}
+@media(min-width: 1000px) {
+    #ranking_tracks {
+        width: 60%;
+    }
+}
+
+#ranking_tracks a{
+    text-decoration: none;
+    color: black;
+    margin-top: 10px;
+}
+
+.canciones{
+    margin-top: auto;
+    margin-bottom: auto;
+    margin-left: 15px;
+    font-family: 'Manrope', sans-serif;
+    display: grid;
+    grid-template-columns: 5fr 1fr;
+}
+
+#track{
+    margin-top: auto;
+    margin-bottom: auto;
+}
+
+#track-image{
+    margin: auto;
+    border-radius: 5px;
+}
+@media(min-width:1000px) {
+    #track-image {
+        margin-left: 350px;
+    }
+}
+
+.header{
+    box-sizing: border-box;
+    background-color: #102c34;
+    width: 100%;
+    display: grid;
+    grid-template-rows: 1fr 1fr;
+    position: fixed;
+    top: 0px;
+    z-index: 10;
+}
+
+.logodiv{
+    display: grid;
+    grid-template-columns: 1fr;
+}
+
+.logo{
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.botonesdiv{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
+#botones{
+    position: absolute;
+    top: 20px;
+    right: 12.5%;
+    margin: auto;
+}
+
+.footer{
+    display: grid;
+    grid-template-rows: 1fr 2fr;
+    width: 100%;
+    margin-top: 50px;
+    color: #6e6e73;
+    background-color: #282024;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 10px;
+}
+
+#name{
+    margin-top: 3px;
+    margin-bottom: 3px;
+    margin-left: 8px;
+}
+
+.logodeez{
+    margin-top: 20px;
+    background-color: #1d1d1f;
+}
+
+.divbusqueda {
+    margin-top: 90px;
+    height: 23px;
+    width: 100%;
+    background-color: #102c34;
+    display: grid;
+    padding-bottom: 5px;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr;
+    margin-bottom: px;
+}
+
+.busqueda2{
+    display: grid;
+    margin-left: auto;
+    margin-right: auto;
+    width: 70%;
+    grid-template-columns: 1fr 9fr;
+    border-radius: 200px;
+    background-color: white;
+}
+
+.lupa{
+    margin-top: auto;
+    margin-bottom: auto;
+    margin-left: 30%;
+}
+
+.busqueda{
+    margin: 0% 20% 0% 5%;
+    border-width: 0px;
+    border-radius: 200px;
+    font-family: 'Raleway', sans-serif;
+}
+
+#topfive{
+    color: black;
+    background-color: white;
+    text-align: center;
+    border: 2px solid white;
+    border-radius: 5px;
+    margin: 10px 30px 10px 30px;
+    padding-bottom: 8px;
+}
+
+.topcancion{
+    margin-top: 2px;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-around;
+    margin-bottom: 2px;
+}
+
+#cabeza{
+    padding: 10px 0px 10px
+}
+
+@media (min-width: 600px){
+    .footer{
+        display: grid;
+        grid-template-rows: 1fr 2fr;
+        width: 100%;
+        margin-top: 80px;
+        color: #6e6e73;
+        background-color: #282024;
+        font-family: 'Open Sans', sans-serif;
+        font-size: 10px;
+    }
+}

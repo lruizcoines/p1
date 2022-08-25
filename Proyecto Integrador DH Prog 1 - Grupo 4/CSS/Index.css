@@ -1,0 +1,830 @@
+body{
+    margin: 0px;
+    width: 100%;
+    font-family: 'Manrope', sans-serif;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+.container{
+    margin-top: 0px;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-around;
+    margin-bottom: 5px;
+}
+.redes:hover{
+    background-color: #5c5257;
+}
+.redes{
+    background-color: #3b3136;
+    width: 50%;
+    height: 40px;
+    border-radius: 5px;
+    margin: auto;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+
+}
+.nombres{
+    margin-top: 30px;
+}
+.nomylogo{
+    display: grid;
+    grid-template-columns: 4fr 1fr;
+}
+.logored{
+    margin: auto;
+}
+
+
+                                                     /*Apple topnav*/
+
+
+#global{
+    position: fixed;
+    top: 0px;
+    z-index: 10;
+    width: 100%;
+    background-color: #E4E0FF;
+    background-color: #e5f1f14d;
+    backdrop-filter: blur(5px);
+    background-color: rgba(255, 255, 255, 0.884);
+}
+
+.nada{
+    background-image: linear-gradient(to bottom, rgb(255, 0, 221), #ffffff);
+    height: 108.94px;
+    height: 60px;
+}
+
+
+#myTopnav {
+   margin-top: 0px;
+   margin-left: 10px;
+   margin-right: 10px;
+}
+
+#containerTopNav {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    margin-top: 5px;
+    margin-bottom: 10px;
+    
+}
+
+#logoSoundWaves  {
+    background-color: none;
+}
+
+.sound {
+    position: absolute;
+    top: 17px;
+    left: 25%;
+    margin: auto;
+}
+
+.waves {
+    position: absolute;
+    top: 17px;
+    right: 25%;
+    margin: auto;
+}
+
+
+.divbusqueda2 {
+    background-color: none;
+    margin-top: 10px;
+    height: 23px;
+    width: 100%;
+    display: grid;
+    padding-bottom: 5px;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr;
+    margin-bottom: 10px;
+}
+
+.busqueda2a {
+    display: grid;
+    margin-left: auto;
+    margin-right: auto;
+    width: 70%;
+    grid-template-columns: 1fr 9fr;
+    border-radius: 200px;
+    border: solid 1px gray;
+    background-color: white;
+}
+
+.busqueda2b {
+    display: grid;
+    margin-left: auto;
+    margin-right: auto;
+    width: 70%;
+    grid-template-columns: 1fr 9fr;
+    border-radius: 200px;
+    border: solid 1px gray;
+    background-color: white;
+}
+
+#busqueda2c {
+    padding: -200px;
+    width: 210px;
+    height: 22px;
+    margin-top: 1px;
+}
+
+.burger {
+    cursor: pointer;
+    text-align: left;
+    position: absolute;
+    left: 11%;
+    top: 20px;
+}
+
+.burger div {
+    width: 25px;
+    height: 1px;
+    background-color: black;
+    margin: 5px;
+    text-align: left;
+}
+
+
+
+.line3 {
+    background-color: #ff004cc4;
+    height: 1px;
+    margin: 1px;
+    margin-left: 5%;
+    margin-right: 5%;
+}
+
+.topnav a{
+    display: none;
+}
+
+  .topnav a.burger {
+    float: right;
+    display: block;
+  }
+
+
+  .topnav.responsive {
+      position: relative;
+    }
+    
+    .topnav.responsive .burger {
+      position: absolute;
+      right: 0;
+      top: 0;
+    }
+    .topnav.responsive a {
+      float: none;
+      display: block;
+      text-align: left;
+    }
+
+    .topnav.responsive .busqueda2a {
+        margin-top: 11px;
+        padding-top: 3px;
+        padding-bottom: 3px;
+    }
+
+    .topnav.responsive .line {
+        height: 1px;
+        background-color: #ff6593c4;
+    }
+
+    .topnav.responsive .line3 {
+        display: none;
+    }
+
+    .topnav.responsive #busqueda2b {
+        display: none;
+    }
+
+
+                                                /*Hasta acá Apple topnav*/
+
+
+.header{
+    box-sizing: border-box;
+    display: grid;
+    grid-template-rows: 1fr 1fr;
+}
+                                            
+.logodiv{
+    display: grid;
+    grid-template-columns: 1fr;
+}
+                                                
+.logo{
+    margin-left: auto;
+    margin-right: auto;
+}
+                                                
+.botonesdiv{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+                                                
+#botones{
+        position: absolute;
+        top: 20px;
+        right: 12.5%;
+        margin: auto;
+    }
+                
+ .divbusqueda {
+    margin-top: 90px;
+    height: 23px;
+    width: 100%;
+    background-color: #102c34;
+    display: grid;
+    padding-bottom: 5px;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr;
+    margin-bottom: px;
+}
+
+.busqueda2{
+    display: grid;
+    margin-left: auto;
+    margin-right: auto;
+    width: 70%;
+    grid-template-columns: 1fr 9fr;
+    border-radius: 200px;
+    background-color: white;
+}
+
+.lupa{
+    margin-top: auto;
+    margin-bottom: auto;
+    margin-left: 30%;
+}
+
+.busqueda{
+    margin: 0% 20% 0% 5%;
+    border-width: 0px;
+    border-radius: 200px;
+    font-family: 'Raleway', sans-serif;
+    padding-top: 2px;
+}
+
+#cabeza{
+    padding: 10px 0px 10px
+}
+
+.footer{
+    display: grid;
+    grid-template-rows: 1fr 2fr;
+    background-color: #282024;
+    width: 100%;
+    margin-top: 0px;
+    color: #6e6e73;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 10px;
+}
+#name{
+    margin-top: 3px;
+    margin-bottom: 3px;
+    margin-left: 8px;
+}
+.logodeez{
+    margin-top: 20px;
+}
+
+.divm{
+    height: 434px;
+    box-sizing: border-box;
+}
+.marshallf{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+
+#fras{
+    height: 170px;
+    margin-top: -315px;
+    font-size: 30px;
+    color: white;
+    margin-left: 5px;
+    margin-right: 5px;
+    cursor: pointer;
+}
+.autor{
+    font-size: 18px;
+    text-decoration: overline;
+}
+.cli{
+    font-size: 9px;
+    text-align: center;
+    font-family: 'Manrope', sans-serif;
+    color: rgba(255, 255, 255, 0.596);
+}
+#fra1{
+    font-family: 'Manrope', sans-serif;
+    text-align: center;
+    font-size: 25px;
+    text-shadow: 2px 2px 3px rgb(0, 0, 0);
+}
+#fra1no{
+    display: none;
+}
+#fra2{
+    display: none;
+}
+#fra2si{
+    font-family: 'Manrope', sans-serif;
+    text-align: center;
+    font-size: 25px;
+    text-shadow: 2px 2px 3px rgb(0, 0, 0);
+}
+#fra3{
+    display: none;
+}
+#fra3si{
+    font-family: 'Manrope', sans-serif;
+    text-align: center;
+    font-size: 25px;
+    text-shadow: 2px 2px 3px rgb(0, 0, 0);
+}
+#fra4{
+    display: none;
+}
+#fra4si{
+    font-family: 'Manrope', sans-serif;
+    text-align: center;
+    font-size: 25px;
+    text-shadow: 2px 2px 3px rgb(0, 0, 0);
+}
+#fra5{
+    display: none;
+}
+#fra5si{
+    font-family: 'Manrope', sans-serif;
+    text-align: center;
+    font-size: 25px;
+    text-shadow: 2px 2px 3px rgb(0, 0, 0);
+}
+#fra6{
+    display: none;
+}
+#fra6si{
+    font-family: 'Manrope', sans-serif;
+    text-align: center;
+    font-size: 25px;
+    text-shadow: 2px 2px 3px rgb(0, 0, 0);
+}
+#fra7{
+    display: none;
+}
+#fra7si{
+    font-family: 'Manrope', sans-serif;
+    text-align: center;
+    font-size: 25px;
+    text-shadow: 2px 2px 3px rgb(0, 0, 0);
+}
+#fra8{
+    display: none;
+}
+#fra8si{
+    font-family: 'Manrope', sans-serif;
+    text-align: center;
+    font-size: 25px;
+    text-shadow: 2px 2px 3px rgb(0, 0, 0);
+}
+#fra9{
+    display: none;
+}
+#fra9si{
+    font-family: 'Manrope', sans-serif;
+    text-align: center;
+    font-size: 25px;
+    text-shadow: 2px 2px 3px rgb(0, 0, 0);
+}
+#fra10{
+    display: none;
+}
+#fra10si{
+    font-family: 'Manrope', sans-serif;
+    text-align: center;
+    font-size: 25px;
+    text-shadow: 2px 2px 3px rgb(0, 0, 0);
+}
+#fra11{
+    display: none;
+}
+#fra11si{
+    font-family: 'Manrope', sans-serif;
+    text-align: center;
+    font-size: 25px;
+    text-shadow: 2px 2px 3px rgb(0, 0, 0);
+}
+#fra12{
+    display: none;
+}
+#fra12si{
+    font-family: 'Manrope', sans-serif;
+    text-align: center;
+    font-size: 25px;
+    text-shadow: 2px 2px 3px rgb(0, 0, 0);
+}
+.ranks{
+    margin-left: auto;
+    margin-right: auto;
+    height: 55px;
+    width: 90%;
+    margin-top: 0px;
+    background-color: rgba(65, 70, 91, 0.123);
+    border-radius: 5px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    cursor: pointer;
+}
+#iconosranks{
+    margin: auto;
+}
+#ranking_tracks{
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 5px;
+    width: 90%;
+    background-color: rgba(0, 0, 0, 0.048);
+    height: 460px;
+    border-radius: 5px;
+    grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+    display: none;
+}
+#ranking_playlist{
+    display: grid;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 5px;
+    width: 90%;
+    background-color: rgba(0, 0, 0, 0.048);
+    height: 460px;
+    border-radius: 5px;
+    /*display: none;*/
+    grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+}
+#ranking_artists{
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 5px;
+    width: 90%;
+    background-color: rgba(0, 0, 0, 0.048);
+    height: 460px;
+    border-radius: 5px;
+    display: none;
+    grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+}
+.canciones{
+    margin-top: 5px;
+    margin-bottom: auto;
+    margin-left: 15px;
+    font-family: 'Manrope', sans-serif;
+    display: grid;
+    grid-template-columns: 5fr 1fr;
+}
+#track-image{
+    margin: auto;
+    border-radius: 2px;
+}
+#track{
+    margin-top: auto;
+    margin-bottom: auto;
+    color: #ff004cc4;
+}
+#track:hover{
+    margin-top: auto;
+    margin-bottom: auto;
+    color: #665f5f;
+}
+#ranking_tracksno{
+    display: none;
+}
+#ranking_playlistsno{
+    display: none;
+}
+#ranking_artistsno{
+    display: none;
+}
+.extra{
+    width: 100%;
+}
+.fotoalbum{
+    display: none;
+}
+.trending{
+    margin-top: 170px;
+    margin-bottom: 5px;
+    margin-left: auto;
+    margin-right: auto;
+    height: 29px;
+    width: 45%;
+    background-color: #ff004cc4;
+    border-radius: 500px;
+    text-align: center;
+    font-family: 'Manrope', sans-serif;
+    text-align: center;
+    display: grid;
+    grid-template-columns: 1fr;
+}
+.tend{
+    margin: auto;
+    font-family: 'Heebo', sans-serif;
+    color: rgb(255, 255, 255);
+}
+
+
+.container{
+    margin-top: 3px;
+}
+.tocaico{
+    text-align: center;
+    font-size: 10px;
+    margin-top: 145px;
+    color: rgb(78, 78, 78);
+}
+
+
+
+#musicasi{
+    display: grid;
+    grid-template-columns: 1fr;
+    border-radius: 5px;
+    background-color: #ff004cc4;
+    display: none;
+}
+.tracksTitle {
+    text-align: center;
+}
+#playlistsi{
+    display: grid;
+    grid-template-columns: 1fr;
+    border-radius: 5px;
+    background-color: #ff004cc4;
+    display: none;
+}
+#artistsi{
+    display: grid;
+    grid-template-columns: 1fr;
+    border-radius: 5px;
+    background-color: #ff004cc4;
+    display: none;
+}
+#musicano{
+    display: grid;
+    grid-template-columns: 1fr;
+    border-radius: 5px;
+}
+#playlistno{
+    display: grid;
+    grid-template-columns: 1fr;
+    border-radius: 5px;
+    background-color: #ff004cc4;
+}
+#artistno{
+    display: grid;
+    grid-template-columns: 1fr;
+    border-radius: 5px;
+}
+.rankings{
+    width: 100%;
+}
+.pepe{
+    width: 35px;
+    height: 35px;
+}
+.tresgru{
+    margin-top: 40px;
+    margin-bottom: 5px;
+    margin-left: auto;
+    margin-right: auto;
+    height: 30px;
+    width: 99%;
+    background-color: #ff004cc4;
+    border-radius: 500px;
+    text-align: center;
+    font-family: 'Manrope', sans-serif;
+    text-align: center;
+    display: grid;
+    grid-template-columns: 1fr;
+}
+.tresgrudos{
+    font-size: 14px;
+    width: 98%;
+    margin: auto;
+    font-family: 'Heebo', sans-serif;
+    color: rgb(255, 255, 255);
+}
+.toca{
+    margin-top: 0px;
+    margin-bottom: 0px;
+    margin-left: auto;
+    margin-right: auto;
+    height: 15px;
+    width: 100%;
+    background-color: #ddd;
+    text-align: center;
+    font-family: 'Manrope', sans-serif;
+    text-align: center;
+    display: grid;
+    grid-template-columns: 1fr;
+}
+.tocacir{
+    font-size: 12px;
+    width: 90%;
+    margin: auto;
+    font-family: 'Heebo', sans-serif;
+    color: #ff004cc4;
+}
+
+/* Slideshow container */
+.slideshow-container {
+    position: relative;
+    background-image: linear-gradient(to bottom, #ddd, #ccccccf1, #ddd);
+  }
+  
+  /* Slides */
+  .mySlides {
+    display: none;
+    padding: 5px 50px 5px 50px;
+    text-align: center;
+  }
+  
+  /* Next & previous buttons */
+  .prev, .next {
+    cursor: pointer;
+    position: absolute;
+    top: 50%;
+    width: auto;
+    margin-top: -30px;
+    padding: 16px;
+    color: #888;
+    font-weight: bold;
+    font-size: 20px;
+    border-radius: 0 3px 3px 0;
+    user-select: none;
+  }
+  
+  /* Position the "next button" to the right */
+  .next {
+    position: absolute;
+    right: 0;
+    border-radius: 3px 0 0 3px;
+  }
+  
+  /* On hover, add a black background color with a little bit see-through */
+  .prev:hover, .next:hover {
+    background-color: rgba(0,0,0,0.8);
+    color: white;
+  }
+  
+  /* The dot/bullet/indicator container */
+  .dot-container {
+    text-align: center;
+    padding: 20px;
+    background: #ddd;
+  }
+  
+  /* The dots/bullets/indicators */
+  .dot {
+    cursor: pointer;
+    height: 15px;
+    width: 15px;
+    margin: 0 2px;
+    background-color: #bbb;
+    border-radius: 50%;
+    display: inline-block;
+    transition: background-color 0.6s ease;
+  }
+  
+  /* Add a background color to the active dot/circle */
+  .active, .dot:hover {
+    background-color: #717171;
+  }
+  
+  /* Add an italic font style to all quotes */
+  q {font-style: italic;}
+  
+  /* Add a blue color to the author */
+  .author {color: cornflowerblue;}
+
+@media (min-width: 600px){
+    .container{
+        margin-top: 230px;
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: row;
+        justify-content: space-around;
+        margin-bottom: 0px;
+        display: grid;
+        grid-template-columns: 1fr 1.15fr;
+    }
+    .trending{
+        margin-top: -3px;
+        margin-left: auto;
+        margin-right: auto;
+        height: 29px;
+        width: 45%;
+        background-color: #ff004cc4;
+        border-radius: 500px;
+        text-align: center;
+        font-family: 'Manrope', sans-serif;
+        text-align: center;
+        display: grid;
+        grid-template-columns: 1fr;
+    }
+   
+    .tocaico{
+        text-align: center;
+        font-size: 8px;
+        margin-top: 205px;
+        color: transparent;
+        background-color: transparent;
+    }
+    .tend{
+        margin: auto;
+        font-family: 'Heebo', sans-serif;
+        color: rgb(255, 255, 255);
+    }
+    .fotoalbum{
+        display: grid;
+        grid-template-columns: 1fr;
+        margin-top: -117px;
+    }
+    .extra{
+        margin-top: -95px;
+    }
+    body{
+        background-color: #E4E0FF;
+        background-color: #ffffff;
+        margin: 0px;
+        width: 100%;
+        font-family: 'Manrope', sans-serif;
+    }
+    .footer{
+        display: grid;
+        grid-template-rows: 1fr 2fr;
+        width: 100%;
+        margin-top: 0px;
+        color: #6e6e73;
+        background-color: #282024;
+        font-family: 'Open Sans', sans-serif;
+        font-size: 10px;
+    }
+    .divm{
+        height: 517px;
+        box-sizing: border-box;
+    }
+    #fras{
+        height: 170px;
+        margin-top: -283px;
+        font-size: 30px;
+        color: white;
+        margin-left: 5px;
+        margin-right: 5px;
+    }
+    #ranking_tracks{
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 5px;
+        width: 80%;
+        background-color: rgba(0, 0, 0, 0.048);
+        height: 600px;
+        border-radius: 5px;
+        grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+        display: none;
+    }
+    #ranking_playlist{
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 5px;
+        width: 80%;
+        background-color: rgba(0, 0, 0, 0.048);
+        height: 600px;
+        border-radius: 5px;
+        grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+    }
+    #ranking_artists{
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 5px;
+        width: 80%;
+        background-color: rgba(0, 0, 0, 0.048);
+        height: 600px;
+        border-radius: 5px;
+        display: none;
+        grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+    }
+    .pepe{
+        width: 50px;
+        height: 50px;
+    }
+}
